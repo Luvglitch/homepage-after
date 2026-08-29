@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernel Coffee Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Kernel Coffee Co.</div>
+        <button class="burger-menu" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="cta-button">Switch to Light Roast</button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1 id="hero-title">Fuel Your Inner Architecture</h1>
+            <p>Artisan coffee roasted to perfection. Whether you are debugging complex systems or just starting your day, we have the perfect brew.</p>
+            <button class="cta-button" onclick="alert('Redirecting to order page...')">Order Now</button>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>Our Story</h2>
+                <p>Founded by tech enthusiasts who understand the need for high-quality fuel, Kernel Coffee Co. sources only the finest single-origin beans. We believe that a solid foundation is just as important in your coffee cup as it is in your software infrastructure. We carefully monitor our roasting lifecycle to ensure zero fragmentation in flavor.</p>
+            </div>
+        </section>
+
+        <section id="menu" class="features">
+            <h2>Featured Pours</h2>
+            <div class="card-container">
+                <div class="feature-card">
+                    <h3>The Singleton Espresso</h3>
+                    <p>A pure, unadulterated shot of our darkest roast. Strong, singular, and highly effective.</p>
+                    <span class="price">$3.50</span>
+                </div>
+                <div class="feature-card">
+                    <h3>Multi-Threaded Macchiato</h3>
+                    <p>Layers of steamed milk and robust espresso working in perfect, concurrent harmony.</p>
+                    <span class="price">$4.75</span>
+                </div>
+                <div class="feature-card">
+                    <h3>Frontend Frappe</h3>
+                    <p>Sweet, cold, and visually appealing. A refreshing break from the heavy backend logic.</p>
+                    <span class="price">$5.50</span>
+                </div>
+                <div class="feature-card">
+                    <h3>Legacy Cold Brew</h3>
+                    <p>Steeped for 24 hours for a smooth, reliable taste that never goes out of style.</p>
+                    <span class="price">$4.25</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kernel Coffee Co. All rights reserved.</p>
+        <p>123 Developer Way, Tech District</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
